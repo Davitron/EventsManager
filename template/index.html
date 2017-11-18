@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="./plugins/materialize/css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/icon.css" />
   </head>
   <body>
     <header>
-      <nav class="topbar" style="background-color: #26a69a !important; ">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">EventManager</a>
-        </div>
-      </nav>
+      <div class="navbar-fixed">
+        <nav class=" z-depth-0" style="background-color: #26a69a !important;">
+          <div class="nav-wrapper">
+            <div class="row">
+              <div class="col s12">
+                <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+                <a href="" class="brand-logo" target="_blank">EventsManager</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="" target="_blank">SignIn</a></li>
+                  <li><a href="" target="_blank">SignUp</a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="" target="_blank">Sass</a></li>
+              <li><a href="" target="_blank">Components</a></li>
+              <li><a href="" target="_blank">Javascript</a></li>
+              <li><a href="" target="_blank">Mobile</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <div class="container" style="padding-top:100px;">
@@ -27,7 +46,7 @@
           <a href="./pages/signup.html" id="explore-button" class="btn-large waves-effect waves-light">SignUp</a>
       </div>
       <div class="row center">
-        <a href="" id="explore-button" class="btn-large waves-effect waves-light">Just Explore</a>
+        <a href="./pages/exploreCenters.html" id="explore-button" class="btn-large waves-effect waves-light">Continue As Guest</a>
       </div>
     </div>
     <script src="./plugins/jquery-3.2.1.min.js" ></script>
