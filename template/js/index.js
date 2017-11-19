@@ -13,6 +13,7 @@ $(document).ready(function(){
     $('#EditCenter').modal();
     $('#deleteCenter').modal();
     $('#delete').modal();
+    $('#cancel').modal();
     $(".dropdown-button").dropdown(
       {
         belowOrigin: true
